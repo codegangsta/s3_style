@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   end
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Utility for styling variant S3 URLs}
+  spec.description   = %q{S3Style is a utility for generating and modifying S3 urls with multiple "style" variants. This is useful for when you are generating thumbnail variants for an image that lives on S3.}
+  spec.homepage      = "http://github.com/codegangsta/s3_style"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
