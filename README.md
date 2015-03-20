@@ -1,8 +1,6 @@
 # S3Style
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/s3_style`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+S3Style is a utility for generating and modifying S3 urls with multiple "style" variants. This is useful for when you are generating thumbnail variants for an image that lives on S3.
 
 ## Installation
 
@@ -22,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+url = S3Style::Url.new("foo.jpg")
+url.style(:medium) # "foo_medium.jpg"
+```
 
 ## Development
 
